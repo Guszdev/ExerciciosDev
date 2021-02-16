@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-02-16 03:19:20 "/>
+        <attribute name="created" value="QXN1cztERVNLVE9QLVY2TUU2TDk7MjAyMS0wMi0xNjsiMDI6NTI6NDUgIjsyNjU1"/>
+        <attribute name="edited" value="QXN1cztERVNLVE9QLVY2TUU2TDk7MjAyMS0wMi0xNjsiMDM6MTE6MjYgIjsxO0FzdXM7REVTS1RPUC1WNk1FNkw5OzIwMjEtMDItMTY7IjAyOjUyOjQ1ICI7NTQ3Mg=="/>
+        <attribute name="edited" value="QXN1cztERVNLVE9QLVY2TUU2TDk7MjAyMS0wMi0xNjsiMDM6MTk6MjAgIjszOzI3NjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Entre com 4 valores para retornar a media&quot;" newline="True"/>
+            <comment text="Fornece 4 valores e retorna a media"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;o valor medio dos valores e&quot;" newline="True"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
